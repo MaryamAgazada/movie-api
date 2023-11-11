@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:wght@400;500;600&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-transform: capitalize;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: "Poppins","sans-serif";
+}
+.nav__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+    /* padding-right: 100px; */
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 40px;
+    background-color: black;
+    color: white;
+    height: 5rem;
+    width: 100%;
+    cursor: pointer;
+    /* position:fixed; */
+   
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 40px;
+    background-color: black;
+    color: white;
+    height: 10rem;
+    width: 100%;
+    cursor: pointer;
+   
+}
+.nav-item{
+    margin-right: 35px;
+  
+   
+}
+/* .nav-items:hover{
+    color: brown;
+} */
+.logo{
+   font-size: 50px;
+}
+.logo span{
+  color: rgb(177, 1, 1);
+  /* color: rgb(54, 150, 118); */
+
+}
+.video{
+height: 100vh;
+width: 100%;
+object-fit: cover;
+z-index: -1;
+
+}
+/* .section--1{
+    position: relative;
+} */
+.text--1{
+    position: absolute;
+  /* margin:0 auto; */
+   /* display: flex; */
+   left: 36%;
+   /* text-align: center; */
+  font-size: 65px;
+    color: rgb(255, 247, 247);
+bottom: 50%;
+}
+.section{
+    object-fit: contain;
+    height:auto;
+    width: auto;
+    /* z-index: -1; */
+}
+.row{
+ padding:25px 25px;
+}
+.list-link{
+    color: aliceblue;
+    text-decoration: none;  
+    cursor: pointer;
+    font-weight: 700;
+    font-size:18px;
+    
+}
+.list-link:hover{
+    color: rgb(54, 150, 118);
+    /* color: rgb(177, 1, 1); */
+}
+.search{
+  margin:0 auto;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 600px;
+  height: 40px;
+}
+.search::placeholder{
+  color: rgb(50, 118, 88);
+ text-align: center;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 40px;
+}
+.form button{
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+}
+
