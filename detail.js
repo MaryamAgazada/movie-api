@@ -13,16 +13,16 @@ axios("https://api.tvmaze.com/shows")
        <div class=' mx-auto bg-white rounded-3xl shadow-xl'>
             <div class="grid rounded-3xl max-w-sm shadow-sm bg-slate-100  flex-col">
          <img
-             src="${elem.image}"
-             width="390"
-             height="200"
+             src="${elem.image.medium}"
+             width="500"
+             height="500"
             class="rounded-t-3xl justify-center grid h-80 object-cover"
              alt="movie.title"
            /> 
    
          <div class="group p-6 grid z-10">
            <a
-             href="${elem.image}"
+             href="${elem.name}"    
              class="group-hover:text-cyan-700 font-bold sm:text-2xl line-clamp-2"
            >
             ${elem.name}
@@ -40,7 +40,7 @@ axios("https://api.tvmaze.com/shows")
              <div class="font-black flex flex-col">
                <span class="text-yellow-500 text-xl">IMDB SCORE</span>
                <span class="text-3xl flex gap-x-1 items-center group-hover:text-yellow-600">
-                ${elem.rating.rate}
+               8
                 <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
    
    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
@@ -55,7 +55,7 @@ axios("https://api.tvmaze.com/shows")
              <div class="flex flex-col items-end">
                <div class="h-7" />
                <span class="text-3xl  font-bold  gap-x-2 text-slate-300">
-                ${elem.rating.rate}
+              8#
                </span>
              </div>
          </div>

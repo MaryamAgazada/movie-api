@@ -4,7 +4,7 @@ let row = document.querySelector(".container .row");
 fetch("https://api.tvmaze.com/shows")
   .then((res) => res.json())
   .then((data) => {
-    for (let i = 0; i < data.length - 1; i++) {
+    for (let i = 0; i < data.length; i++) {
       row.innerHTML += `
         <div class="col-3">
           <div class="card" style="width: 18rem;">
@@ -20,7 +20,7 @@ fetch("https://api.tvmaze.com/shows")
     console.log(data)
     // console.log(data)
   })
-  .catch((error) => console.error(error));
+ 
 
 //   document.querySelector(".btn").addEventListener("click",function(){
 // fetch("https://api.tvmaze.com/shows")
